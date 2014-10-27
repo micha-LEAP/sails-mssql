@@ -1,6 +1,8 @@
 # sails-mssql
 
-This is a fork of swelham/sails-mssql that aims to bring sails/waterline .0.10x support to mssql.
+This is based on a fork of swelham/sails-mssql that aims to bring sails/waterline .0.10x support to mssql.
+
+Removed devDependencies that were causing dev installs to break.
 
 This module is a Waterline/Sails adapter, an early implementation of a rapidly-developing, tool-agnostic data standard.  Its goal is to provide a set of declarative interfaces, conventions, and best-practices for integrating with all sorts of data sources.  Not just databases-- external APIs, proprietary web services, or even hardware.
 
